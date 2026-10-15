@@ -1,0 +1,193 @@
+[
+  {
+    "_id": "65e8a5000000000000000001",
+    "trackingCode": "DEL-2026-90412",
+    "pickup": {
+      "address": "BioPharma Cold Storage, South San Francisco, CA",
+      "contactName": "Dr. Evelyn Reed",
+      "contactPhone": "+1-555-012-3344",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216,
+          37.6547
+        ]
+      },
+      "scheduledTime": "2026-10-15T03:17:01.410Z"
+    },
+    "destination": {
+      "address": "Stanford Health Care Pavilion, Palo Alto, CA",
+      "recipientName": "Pharmacy Logistics Desk",
+      "recipientPhone": "+1-555-012-7788",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.1704,
+          37.4348
+        ]
+      },
+      "scheduledTime": "2026-10-15T07:17:01.410Z"
+    },
+    "vehicleId": "65e8a3000000000000000004",
+    "driverId": "65e8a2000000000000000003",
+    "routeId": "65e8a4000000000000000001",
+    "status": "in_transit",
+    "cargo": {
+      "description": "Temperature-Sensitive Vaccines & Biologics (-20C)",
+      "weightKg": 850,
+      "volumeM3": 4.5,
+      "isFragile": true,
+      "requiresRefrigeration": true
+    },
+    "priority": "critical",
+    "timestamps": {
+      "assignedAt": "2026-10-15T01:17:01.410Z",
+      "pickedUpAt": "2026-10-15T03:17:01.410Z",
+      "estimatedDeliveryAt": "2026-10-15T06:47:01.410Z"
+    },
+    "notes": "Maintain internal container temperature below -20 deg Celsius at all times."
+  },
+  {
+    "_id": "65e8a5000000000000000002",
+    "trackingCode": "DEL-2026-90413",
+    "pickup": {
+      "address": "Port of Oakland Terminal 3, Oakland, CA",
+      "contactName": "Marcus Bradley",
+      "contactPhone": "+1-555-018-9901",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.2882,
+          37.7958
+        ]
+      },
+      "scheduledTime": "2026-10-15T02:17:01.410Z"
+    },
+    "destination": {
+      "address": "Silicon Valley Data Logistics Hub, San Jose, CA",
+      "recipientName": "Server Operations Dock",
+      "recipientPhone": "+1-555-018-4455",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -121.9056,
+          37.3712
+        ]
+      },
+      "scheduledTime": "2026-10-15T08:17:01.410Z"
+    },
+    "vehicleId": "65e8a3000000000000000001",
+    "driverId": "65e8a2000000000000000001",
+    "routeId": "65e8a4000000000000000001",
+    "status": "in_transit",
+    "cargo": {
+      "description": "High-Density Server Racks and Optical Switchgear",
+      "weightKg": 14200,
+      "volumeM3": 65,
+      "isFragile": true,
+      "requiresRefrigeration": false
+    },
+    "priority": "high",
+    "timestamps": {
+      "assignedAt": "2026-10-15T00:17:01.410Z",
+      "pickedUpAt": "2026-10-15T03:47:01.410Z",
+      "estimatedDeliveryAt": "2026-10-15T07:47:01.410Z"
+    },
+    "notes": "Air-ride suspension equipped trailer required."
+  },
+  {
+    "_id": "65e8a5000000000000000003",
+    "trackingCode": "DEL-2026-90414",
+    "pickup": {
+      "address": "East Bay Industrial Park, Fremont, CA",
+      "contactName": "Gordon Myers",
+      "contactPhone": "+1-555-014-2233",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -121.9886,
+          37.5485
+        ]
+      },
+      "scheduledTime": "2026-10-14T21:17:01.410Z"
+    },
+    "destination": {
+      "address": "Oakland Metro Parts Depot, Oakland, CA",
+      "recipientName": "Warehouse Manager Jim",
+      "recipientPhone": "+1-555-014-6677",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.2711,
+          37.8044
+        ]
+      },
+      "scheduledTime": "2026-10-15T03:17:01.410Z"
+    },
+    "vehicleId": "65e8a3000000000000000002",
+    "driverId": "65e8a2000000000000000002",
+    "routeId": null,
+    "status": "delivered",
+    "cargo": {
+      "description": "Precision Hydraulic Hose Assemblies",
+      "weightKg": 420,
+      "volumeM3": 3.2,
+      "isFragile": false,
+      "requiresRefrigeration": false
+    },
+    "priority": "standard",
+    "timestamps": {
+      "assignedAt": "2026-10-14T20:17:01.410Z",
+      "pickedUpAt": "2026-10-14T22:17:01.410Z",
+      "deliveredAt": "2026-10-15T03:17:01.410Z",
+      "estimatedDeliveryAt": "2026-10-15T03:17:01.410Z"
+    },
+    "notes": "Delivered and signed by receiving clerk."
+  },
+  {
+    "_id": "65e8a5000000000000000004",
+    "trackingCode": "DEL-2026-90415",
+    "pickup": {
+      "address": "San Jose Electronics Wharf, San Jose, CA",
+      "contactName": "Tina Vance",
+      "contactPhone": "+1-555-016-7788",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      },
+      "scheduledTime": "2026-10-15T10:17:01.410Z"
+    },
+    "destination": {
+      "address": "San Francisco Retail Hub, San Francisco, CA",
+      "recipientName": "Storefront Receiving",
+      "recipientPhone": "+1-555-016-1122",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.4048,
+          37.7765
+        ]
+      },
+      "scheduledTime": "2026-10-15T14:17:01.410Z"
+    },
+    "vehicleId": null,
+    "driverId": null,
+    "routeId": null,
+    "status": "pending",
+    "cargo": {
+      "description": "Commercial Display Monitors (65-inch 4K panels)",
+      "weightKg": 1850,
+      "volumeM3": 12,
+      "isFragile": true,
+      "requiresRefrigeration": false
+    },
+    "priority": "standard",
+    "timestamps": {
+      "estimatedDeliveryAt": "2026-10-15T14:17:01.410Z"
+    },
+    "notes": "Awaiting truck assignment upon return of FL-BOX-305 from scheduled service."
+  }
+]

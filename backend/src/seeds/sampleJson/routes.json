@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "65e8a4000000000000000001",
+    "name": "San Francisco to San Jose Tech Express",
+    "code": "RT-SF-SJ-01",
+    "origin": {
+      "name": "San Francisco Central Logistics Hub",
+      "address": "450 7th St, San Francisco, CA 94103",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.4048,
+          37.7765
+        ]
+      }
+    },
+    "destination": {
+      "name": "Silicon Valley South Distribution Yard",
+      "address": "1850 Junction Ave, San Jose, CA 95112",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -121.9056,
+          37.3712
+        ]
+      }
+    },
+    "waypoints": [
+      {
+        "sequence": 1,
+        "name": "South San Francisco Crossdock",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            -122.4216,
+            37.6547
+          ]
+        },
+        "estimatedStopMinutes": 20
+      },
+      {
+        "sequence": 2,
+        "name": "Palo Alto Express Transfer Point",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            -122.143,
+            37.4419
+          ]
+        },
+        "estimatedStopMinutes": 15
+      }
+    ],
+    "routeGeometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.4048,
+          37.7765
+        ],
+        [
+          -122.4216,
+          37.6547
+        ],
+        [
+          -122.3255,
+          37.563
+        ],
+        [
+          -122.2272,
+          37.4852
+        ],
+        [
+          -122.143,
+          37.4419
+        ],
+        [
+          -122.0842,
+          37.422
+        ],
+        [
+          -121.9899,
+          37.3861
+        ],
+        [
+          -121.9056,
+          37.3712
+        ]
+      ]
+    },
+    "distance": {
+      "valueKm": 78.5,
+      "estimatedDurationMinutes": 65
+    },
+    "isActive": true
+  },
+  {
+    "_id": "65e8a4000000000000000002",
+    "name": "Port of Oakland to Sacramento Freight Link",
+    "code": "RT-OAK-SAC-02",
+    "origin": {
+      "name": "Port of Oakland Terminal 3",
+      "address": "530 Water St, Oakland, CA 94607",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -122.2882,
+          37.7958
+        ]
+      }
+    },
+    "destination": {
+      "name": "Sacramento Regional Fulfillment Depot",
+      "address": "3800 Pell Dr, Sacramento, CA 95838",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -121.4552,
+          38.6438
+        ]
+      }
+    },
+    "waypoints": [
+      {
+        "sequence": 1,
+        "name": "Vallejo Highway Weigh Station",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            -122.2566,
+            38.1041
+          ]
+        },
+        "estimatedStopMinutes": 10
+      }
+    ],
+    "routeGeometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -122.2882,
+          37.7958
+        ],
+        [
+          -122.2566,
+          38.1041
+        ],
+        [
+          -122.0405,
+          38.2494
+        ],
+        [
+          -121.7405,
+          38.5449
+        ],
+        [
+          -121.4552,
+          38.6438
+        ]
+      ]
+    },
+    "distance": {
+      "valueKm": 135.2,
+      "estimatedDurationMinutes": 110
+    },
+    "isActive": true
+  }
+]

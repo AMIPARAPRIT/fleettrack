@@ -1,0 +1,53 @@
+[
+  {
+    "recipient": "65e8a1000000000000000002",
+    "category": "overspeeding",
+    "severity": "warning",
+    "message": "Vehicle FL-REF-402 exceeded speed threshold (76.0 km/h in 65 km/h zone) on CA-85 South.",
+    "readStatus": false,
+    "metadata": {
+      "vehicleId": "65e8a3000000000000000004",
+      "driverId": "65e8a2000000000000000003",
+      "actionUrl": "/vehicles?id=FL-REF-402"
+    },
+    "createdAt": "2026-10-15T05:14:01.410Z"
+  },
+  {
+    "recipient": "65e8a1000000000000000002",
+    "category": "delivery_delayed",
+    "severity": "low",
+    "message": "Delivery DEL-2026-90412 estimated arrival updated by +12 mins due to traffic congestion.",
+    "readStatus": true,
+    "metadata": {
+      "deliveryId": "65e8a5000000000000000001",
+      "vehicleId": "65e8a3000000000000000004",
+      "actionUrl": "/deliveries?code=DEL-2026-90412"
+    },
+    "createdAt": "2026-10-15T04:52:01.410Z"
+  },
+  {
+    "recipient": "65e8a1000000000000000002",
+    "category": "delivery_completed",
+    "severity": "info",
+    "message": "Consignment DEL-2026-90413 has been successfully delivered and verified by recipient.",
+    "readStatus": true,
+    "metadata": {
+      "deliveryId": "65e8a5000000000000000003",
+      "vehicleId": "65e8a3000000000000000002",
+      "actionUrl": "/deliveries?code=DEL-2026-90414"
+    },
+    "createdAt": "2026-10-15T03:17:01.410Z"
+  },
+  {
+    "recipient": "65e8a1000000000000000001",
+    "category": "maintenance_due",
+    "severity": "critical",
+    "message": "Vehicle FL-BOX-305 requires immediate brake rotor replacement and hydraulic fluid flush.",
+    "readStatus": false,
+    "metadata": {
+      "vehicleId": "65e8a3000000000000000003",
+      "actionUrl": "/vehicles?id=FL-BOX-305"
+    },
+    "createdAt": "2026-10-14T23:17:01.410Z"
+  }
+]

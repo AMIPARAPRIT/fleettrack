@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "65e8a2000000000000000001",
+    "userId": "65e8a1000000000000000003",
+    "fullName": "Alexander Morgan",
+    "contactNumber": "+1-555-019-3312",
+    "licenseNumber": "CDL-CA-99281A",
+    "licenseExpiry": "2028-06-30T00:00:00.000Z",
+    "availability": "on_trip",
+    "assignedVehicle": "65e8a3000000000000000001",
+    "experienceYears": 8,
+    "safetyRating": 4.9,
+    "emergencyContact": {
+      "name": "Claire Morgan",
+      "phone": "+1-555-019-3313",
+      "relationship": "Spouse"
+    }
+  },
+  {
+    "_id": "65e8a2000000000000000002",
+    "userId": "65e8a1000000000000000004",
+    "fullName": "Sarah Jenkins",
+    "contactNumber": "+1-555-019-4423",
+    "licenseNumber": "CDL-CA-88371B",
+    "licenseExpiry": "2027-11-15T00:00:00.000Z",
+    "availability": "available",
+    "assignedVehicle": "65e8a3000000000000000002",
+    "experienceYears": 5,
+    "safetyRating": 4.8,
+    "emergencyContact": {
+      "name": "Robert Jenkins",
+      "phone": "+1-555-019-4420",
+      "relationship": "Father"
+    }
+  },
+  {
+    "_id": "65e8a2000000000000000003",
+    "userId": "65e8a1000000000000000005",
+    "fullName": "David Chen",
+    "contactNumber": "+1-555-019-5567",
+    "licenseNumber": "CDL-CA-77492C",
+    "licenseExpiry": "2029-02-28T00:00:00.000Z",
+    "availability": "on_trip",
+    "assignedVehicle": "65e8a3000000000000000004",
+    "experienceYears": 11,
+    "safetyRating": 5,
+    "emergencyContact": {
+      "name": "Mei Chen",
+      "phone": "+1-555-019-5568",
+      "relationship": "Spouse"
+    }
+  }
+]

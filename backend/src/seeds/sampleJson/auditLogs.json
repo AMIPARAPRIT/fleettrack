@@ -1,0 +1,91 @@
+[
+  {
+    "actor": {
+      "userId": "65e8a1000000000000000002",
+      "name": "Elena Rostova",
+      "role": "dispatcher",
+      "ipAddress": "192.168.1.45"
+    },
+    "action": "DISPATCH",
+    "entity": {
+      "type": "Delivery",
+      "id": "65e8a5000000000000000001",
+      "identifier": "DEL-2026-90412"
+    },
+    "changes": {
+      "before": {
+        "status": "pending",
+        "vehicleId": null,
+        "driverId": null
+      },
+      "after": {
+        "status": "in_transit",
+        "vehicleId": "FL-REF-402",
+        "driverId": "David Chen"
+      }
+    },
+    "timestamp": "2026-10-15T03:17:01.410Z"
+  },
+  {
+    "actor": {
+      "userId": "65e8a1000000000000000002",
+      "name": "Elena Rostova",
+      "role": "dispatcher",
+      "ipAddress": "192.168.1.45"
+    },
+    "action": "ROUTE_ASSIGNMENT",
+    "entity": {
+      "type": "Route",
+      "id": "65e8a4000000000000000001",
+      "identifier": "RT-SF-SJ-01"
+    },
+    "changes": {
+      "before": null,
+      "after": {
+        "assignedVehicle": "FL-TRK-101",
+        "route": "San Francisco to San Jose Tech Express"
+      }
+    },
+    "timestamp": "2026-10-15T01:17:01.410Z"
+  },
+  {
+    "actor": {
+      "userId": "65e8a1000000000000000001",
+      "name": "Marcus Vance",
+      "role": "admin",
+      "ipAddress": "192.168.1.10"
+    },
+    "action": "STATUS_CHANGE",
+    "entity": {
+      "type": "Vehicle",
+      "id": "65e8a3000000000000000003",
+      "identifier": "FL-BOX-305"
+    },
+    "changes": {
+      "before": {
+        "status": "idle"
+      },
+      "after": {
+        "status": "maintenance",
+        "reason": "Scheduled Brake Inspection"
+      }
+    },
+    "timestamp": "2026-10-14T22:17:01.410Z"
+  },
+  {
+    "actor": {
+      "userId": "65e8a1000000000000000001",
+      "name": "Marcus Vance",
+      "role": "admin",
+      "ipAddress": "192.168.1.10"
+    },
+    "action": "LOGIN",
+    "entity": {
+      "type": "User",
+      "id": "65e8a1000000000000000001",
+      "identifier": "admin.vance@fleetpulse.io"
+    },
+    "changes": null,
+    "timestamp": "2026-10-14T21:17:01.410Z"
+  }
+]

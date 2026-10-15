@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "65e8a1000000000000000001",
+    "name": "Marcus Vance",
+    "email": "admin.vance@fleetpulse.io",
+    "passwordHash": "$2b$10$wT8fU/8pQ2xZ0FjX17R5r.u8m6F7W0z4n9H3e7Q2A1B8C9D0E1F2G",
+    "role": "admin",
+    "status": "active",
+    "phoneNumber": "+1-555-010-9921"
+  },
+  {
+    "_id": "65e8a1000000000000000002",
+    "name": "Elena Rostova",
+    "email": "elena.dispatcher@fleetpulse.io",
+    "passwordHash": "$2b$10$wT8fU/8pQ2xZ0FjX17R5r.u8m6F7W0z4n9H3e7Q2A1B8C9D0E1F2G",
+    "role": "dispatcher",
+    "status": "active",
+    "phoneNumber": "+1-555-010-8834"
+  },
+  {
+    "_id": "65e8a1000000000000000003",
+    "name": "Alexander Morgan",
+    "email": "alex.morgan@fleetpulse.io",
+    "passwordHash": "$2b$10$wT8fU/8pQ2xZ0FjX17R5r.u8m6F7W0z4n9H3e7Q2A1B8C9D0E1F2G",
+    "role": "driver",
+    "status": "active",
+    "phoneNumber": "+1-555-019-3312"
+  },
+  {
+    "_id": "65e8a1000000000000000004",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@fleetpulse.io",
+    "passwordHash": "$2b$10$wT8fU/8pQ2xZ0FjX17R5r.u8m6F7W0z4n9H3e7Q2A1B8C9D0E1F2G",
+    "role": "driver",
+    "status": "active",
+    "phoneNumber": "+1-555-019-4423"
+  },
+  {
+    "_id": "65e8a1000000000000000005",
+    "name": "David Chen",
+    "email": "david.chen@fleetpulse.io",
+    "passwordHash": "$2b$10$wT8fU/8pQ2xZ0FjX17R5r.u8m6F7W0z4n9H3e7Q2A1B8C9D0E1F2G",
+    "role": "driver",
+    "status": "active",
+    "phoneNumber": "+1-555-019-5567"
+  }
+]

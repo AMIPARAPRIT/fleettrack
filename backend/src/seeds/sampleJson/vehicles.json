@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "65e8a3000000000000000001",
+    "vehicleNumber": "FL-TRK-101",
+    "makeModel": "Freightliner Cascadia 126",
+    "type": "semi_truck",
+    "capacity": {
+      "weightKg": 24000,
+      "volumeM3": 95
+    },
+    "status": "in_transit",
+    "assignedDriver": "65e8a2000000000000000001",
+    "lastLocation": {
+      "type": "Point",
+      "coordinates": [
+        -122.3957,
+        37.7812
+      ],
+      "speed": 68.5,
+      "heading": 145,
+      "updatedAt": "2026-10-15T05:17:01.410Z"
+    },
+    "fuelCapacityLiters": 450,
+    "currentFuelPercent": 82,
+    "odometerKm": 148200
+  },
+  {
+    "_id": "65e8a3000000000000000002",
+    "vehicleNumber": "FL-VAN-204",
+    "makeModel": "Mercedes-Benz Sprinter 3500",
+    "type": "cargo_van",
+    "capacity": {
+      "weightKg": 2200,
+      "volumeM3": 15
+    },
+    "status": "idle",
+    "assignedDriver": "65e8a2000000000000000002",
+    "lastLocation": {
+      "type": "Point",
+      "coordinates": [
+        -122.2711,
+        37.8044
+      ],
+      "speed": 0,
+      "heading": 0,
+      "updatedAt": "2026-10-15T05:17:01.410Z"
+    },
+    "fuelCapacityLiters": 95,
+    "currentFuelPercent": 95,
+    "odometerKm": 42100
+  },
+  {
+    "_id": "65e8a3000000000000000003",
+    "vehicleNumber": "FL-BOX-305",
+    "makeModel": "Isuzu FTR Heavy-Duty Box",
+    "type": "box_truck",
+    "capacity": {
+      "weightKg": 12500,
+      "volumeM3": 45
+    },
+    "status": "maintenance",
+    "assignedDriver": null,
+    "lastLocation": {
+      "type": "Point",
+      "coordinates": [
+        -121.8863,
+        37.3382
+      ],
+      "speed": 0,
+      "heading": 270,
+      "updatedAt": "2026-10-15T05:17:01.410Z"
+    },
+    "fuelCapacityLiters": 260,
+    "currentFuelPercent": 44,
+    "odometerKm": 98450
+  },
+  {
+    "_id": "65e8a3000000000000000004",
+    "vehicleNumber": "FL-REF-402",
+    "makeModel": "Volvo VNL 760 Reefer Unit",
+    "type": "refrigerated_truck",
+    "capacity": {
+      "weightKg": 21000,
+      "volumeM3": 88
+    },
+    "status": "in_transit",
+    "assignedDriver": "65e8a2000000000000000003",
+    "lastLocation": {
+      "type": "Point",
+      "coordinates": [
+        -122.0842,
+        37.422
+      ],
+      "speed": 74.2,
+      "heading": 130,
+      "updatedAt": "2026-10-15T05:17:01.410Z"
+    },
+    "fuelCapacityLiters": 420,
+    "currentFuelPercent": 68,
+    "odometerKm": 185600
+  }
+]

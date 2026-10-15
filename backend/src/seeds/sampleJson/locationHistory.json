@@ -1,0 +1,162 @@
+[
+  {
+    "vehicleId": "65e8a3000000000000000001",
+    "latitude": 37.7812,
+    "longitude": -122.3957,
+    "speed": 68.5,
+    "heading": 145,
+    "altitude": 18,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:15:01.410Z",
+    "telemetry": {
+      "odometerKm": 148200,
+      "fuelLevelPercent": 82,
+      "engineStatus": "on",
+      "batteryVoltage": 13.8
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000001",
+    "latitude": 37.7695,
+    "longitude": -122.4012,
+    "speed": 65,
+    "heading": 150,
+    "altitude": 19,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:13:01.410Z",
+    "telemetry": {
+      "odometerKm": 148197,
+      "fuelLevelPercent": 82,
+      "engineStatus": "on",
+      "batteryVoltage": 13.9
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000001",
+    "latitude": 37.7511,
+    "longitude": -122.4055,
+    "speed": 70.2,
+    "heading": 160,
+    "altitude": 22,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:11:01.410Z",
+    "telemetry": {
+      "odometerKm": 148194,
+      "fuelLevelPercent": 83,
+      "engineStatus": "on",
+      "batteryVoltage": 13.8
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000001",
+    "latitude": 37.7302,
+    "longitude": -122.4038,
+    "speed": 72.1,
+    "heading": 165,
+    "altitude": 25,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:09:01.410Z",
+    "telemetry": {
+      "odometerKm": 148191,
+      "fuelLevelPercent": 83,
+      "engineStatus": "on",
+      "batteryVoltage": 13.8
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000001",
+    "latitude": 37.7118,
+    "longitude": -122.4011,
+    "speed": 71,
+    "heading": 162,
+    "altitude": 20,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:07:01.410Z",
+    "telemetry": {
+      "odometerKm": 148188,
+      "fuelLevelPercent": 83,
+      "engineStatus": "on",
+      "batteryVoltage": 13.7
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000004",
+    "latitude": 37.422,
+    "longitude": -122.0842,
+    "speed": 74.2,
+    "heading": 130,
+    "altitude": 35,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:16:01.410Z",
+    "telemetry": {
+      "odometerKm": 185600,
+      "fuelLevelPercent": 68,
+      "engineStatus": "on",
+      "batteryVoltage": 14.1
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000004",
+    "latitude": 37.4335,
+    "longitude": -122.1021,
+    "speed": 76,
+    "heading": 135,
+    "altitude": 32,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:14:01.410Z",
+    "telemetry": {
+      "odometerKm": 185597,
+      "fuelLevelPercent": 68,
+      "engineStatus": "on",
+      "batteryVoltage": 14
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000004",
+    "latitude": 37.4452,
+    "longitude": -122.1215,
+    "speed": 73.8,
+    "heading": 132,
+    "altitude": 30,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:12:01.410Z",
+    "telemetry": {
+      "odometerKm": 185593,
+      "fuelLevelPercent": 69,
+      "engineStatus": "on",
+      "batteryVoltage": 14.1
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000004",
+    "latitude": 37.4612,
+    "longitude": -122.1488,
+    "speed": 69.5,
+    "heading": 128,
+    "altitude": 28,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:10:01.410Z",
+    "telemetry": {
+      "odometerKm": 185590,
+      "fuelLevelPercent": 69,
+      "engineStatus": "on",
+      "batteryVoltage": 14
+    }
+  },
+  {
+    "vehicleId": "65e8a3000000000000000002",
+    "latitude": 37.8044,
+    "longitude": -122.2711,
+    "speed": 0,
+    "heading": 0,
+    "altitude": 12,
+    "source": "gps_transponder",
+    "timestamp": "2026-10-15T05:12:01.410Z",
+    "telemetry": {
+      "odometerKm": 42100,
+      "fuelLevelPercent": 95,
+      "engineStatus": "off",
+      "batteryVoltage": 12.6
+    }
+  }
+]
